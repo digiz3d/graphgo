@@ -1,0 +1,9 @@
+type Show {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  # broadcastingShows: [Show!]!
+  show(id: String!): Show!
+}
